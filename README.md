@@ -7,5 +7,5 @@
 - clone repo to desired folder
 - from folder root run `venv_setup.sh` or `venv_setup.bat` depending from your OS
 - verify that virtual environment successfully installed and activated
-- from root folder execute `pytest tests\test_function.py`
+- from root folder execute `python -m pytest -v tests/test_function.py`
 - Profit!
